@@ -1,0 +1,21 @@
+{
+  "name": "bs-package-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for BuckleScript NPM package",
+  "main": "index.js",
+  "repository": "git@github.com:Astrocoders/bs-package-boilerplate.git",
+  "author": "Gabriel R. Abreu <grsabreu@gmail.com>",
+  "license": "MIT",
+	"dependencies": {
+		"reason-react": "^0.2.3"
+	},
+	"devDependencies": {
+		"bs-platform": "^1.9.1"
+	},
+	"scripts": {
+    "start": "yarn bs:watch",
+		"bs:build": "bsb -make-world -clean-world",
+		"bs:watch": "bsb -make-world -clean-world -w",
+		"bs:setup": "bsb -make-world"
+	}
+}
