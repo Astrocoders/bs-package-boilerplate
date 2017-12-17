@@ -6,16 +6,17 @@
   "repository": "git@github.com:Astrocoders/bs-package-boilerplate.git",
   "author": "Gabriel R. Abreu <grsabreu@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "reason-react": "^0.2.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "bs-platform": "^1.9.1"
+    "bs-platform": "^2.1.0"
   },
   "scripts": {
     "start": "yarn bs:watch",
     "bs:build": "bsb -make-world -clean-world",
     "bs:watch": "bsb -make-world -clean-world -w",
     "bs:setup": "bsb -make-world"
+  },
+  "peerDependencies": {
+    "reason-react": "^0.3.0"
   }
 }

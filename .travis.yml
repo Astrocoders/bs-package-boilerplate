@@ -10,8 +10,5 @@ cache:
   directories:
     - node_modules
 
-notifications:
-  slack: astrocoders:pKUMdVeYN9SItr4nYetvSSqC
-
 script:
   - npm test
