@@ -2,7 +2,7 @@
   "name": "bs-package-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for BuckleScript NPM package",
-  "main": "lib/js/re/index.js",
+  "main": "lib/js/re/Foo.js",
   "repository": "git@github.com:Astrocoders/bs-package-boilerplate.git",
   "author": "Gabriel R. Abreu <grsabreu@gmail.com>",
   "license": "MIT",

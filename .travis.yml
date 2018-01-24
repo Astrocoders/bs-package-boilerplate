@@ -11,4 +11,5 @@ cache:
     - node_modules
 
 script:
-  - npm test
+  - yarn bs:build
+  - yarn test
