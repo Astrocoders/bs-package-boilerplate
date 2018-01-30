@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.3.3",
+    "@glennsl/bs-jest": "^0.4.0",
     "bs-platform": "^2.1.0",
     "jest": "^22.1.4"
   },
